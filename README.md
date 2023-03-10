@@ -1,13 +1,6 @@
-<a name="readme-top"></a>
+# mose-code-decoder
 
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b> Ruby Morse Code</b></h3>
-
-</div>
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -17,8 +10,8 @@
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -27,38 +20,36 @@
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Ruby Morse Code <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-**Ruby Morse Code** is a project which decodes morse code messages
+# 📖 Morse Code <a name="about-project"></a>
+
+This is a program that takes morse code as an input and decodes it.
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">Ruby</a></li>
+    <li><a href="https://www.ruby-lang.org/">Ruby</a></li>
+    <li><a href="https://ubuntu.com/">Terminal</a></li>
+    <li><a href="https://code.visualstudio.com/">Visual Studio</a></li>
   </ul>
 </details>
 
+<!-- Features -->
+
 ### Key Features <a name="key-features"></a>
 
-- **[schema.sql](queries.sql)**
-- **[data.sql](data.sql)**
-- **[queries.sql](schema.sql)**
+- **Decodes morse code into human readable format**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- Not available
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -68,33 +59,81 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- VS Code
-- PostgreSQL
-
-### Setup
-
-Clone this repository to your desired folder:
-
-git clone git@github.com:Iptysam/Vet-Clinic.git
-
-### Install
-
-Install this project with:
+- Ruby
+- Terminal basics
+- Git & github
 
 <!--
 Example command:
 
 ```sh
-  cd <!--
+ gem install rails
+```
+ -->
+
+### Setup
+
+Clone this repository to your desired folder:
+
+- Click on the green button on the top right corner with the text code
+- Click on SSH
+- Copy the text that appears below
+- Type "git clone" in your terminal and past the copied text next to "git clone" and press enter
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+
+--->
+
+### Install
+
+Install this project with:
+
+- Click on the green button on the top right corner with the text code
+- Click on "Download ZIP"
+- Extract the downloaded file locally
+- Once oponed up in a code editor run `npm install` to install all packages
+
+<!--
 Example command:
 
 ```sh
   cd my-project
-  install PostgreSQL
+  gem install
 ```
 --->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Usage
+
+- Decipher morse code.
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+- Run `npm test` in an intergrated terminal to run automated tests.
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+
+--->
+
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -106,31 +145,42 @@ Example command:
 
 - LinkedIn: [@linkedin](https://www.linkedin.com/in/iptisam-mukadam)
 
+👤 **Ajayi Ridwan**
+
+- GitHub: [@Ridwanullahi-code](https://github.com/Ridwanullahi-code)
+- Twitter: [@Ridwanullahi22](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ajayi-ridwan/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Include animations**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Iptysam/Vet-Clinic/issues)
+Feel free to check the [issues page]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give a star
+If you like this project...
+
+Feel free to give it a start
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
+
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank....
+> Give credit to everyone who inspired your codebase.
+> Thanks Microverse for providing us with the right material to aid this project development
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,5 +189,7 @@ I would like to thank....
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
